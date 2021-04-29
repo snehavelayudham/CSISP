@@ -1,12 +1,35 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  
   margin: 2em;
-  background-color: grey;
+  background-image: linear-gradient(CornFlowerBlue, LavenderBlush, CornFlowerBlue);
+  border: dashed;
+  border-color: white;
 }
 
-h1 {
+.title {
   font-style: italic;
-  color: white;
+  font-color: white;
+  font-size: 3em;
+  font-family: Chalkduster, fantasy;
+  text-align: center
+  
 }
+
+div2 {
+  margin: auto;
+  height:200;
+  padding:20px;
+  argin-vertical: auto;
+  align: center;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
