@@ -26,10 +26,32 @@ div2 {
 
 }
 
+div10{
+  background-image: linear-gradient(LightBlue, LavenderBlush);
+}
+div11{
+  background-image: linear-gradient(LavenderBlush, LightBlue);
+}
+div12{
+  background-image: linear-gradient(LightBlue, LavenderBlush);
+}
 .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: center;
+}
+
+.text{
+  font-family: Chalkduster, fantasy;
+  font-size: 3em;
+}
+
+.rectangle {
+  height: 4em;
+  width: 9em;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
